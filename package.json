@@ -4,7 +4,9 @@
   "description": "Javascript skeleton for universal application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --port 8082",
+    "start-win-uni-dark": "webpack-dev-server --inline --hot --port 8082 --content-base src/platforms/win-uni-dark/",
+    "start-win-uni-light": "webpack-dev-server --inline --hot --port 8082 --content-base src/platforms/win-uni-light/",
+    "start": "webpack-dev-server --inline --hot --port 8082 --content-base src",
     "build": "lessapp --win --ios --android"
   },
   "repository": {

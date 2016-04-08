@@ -3,9 +3,9 @@ module.exports = {
         './src/index.js'
     ],
     output: {
-        path: __dirname+'/builds',
+        path: __dirname,
         publicPath: '/',
-        filename: 'builds/js/app.js'
+        filename: 'bundle.js'
     },
     module: {
         noParse: /node_modules\/json-schema\/lib\/validate\.js/,
