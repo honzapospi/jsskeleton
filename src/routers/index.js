@@ -9,6 +9,7 @@ export default (
     <div>
         <Route path="/" component={Layout}>
             <IndexRoute component={Homepage} />
+            <Route path="default.html" component={Homepage} />
             <Route path="contact/" component={Contact} />
         </Route>
     </div>

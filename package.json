@@ -4,8 +4,8 @@
   "description": "Javascript skeleton for universal application",
   "main": "index.js",
   "scripts": {
-    "start-win-uni-dark": "webpack-dev-server --inline --hot --port 8082 --content-base src/platforms/win-uni-dark/",
-    "start-win-uni-light": "webpack-dev-server --inline --hot --port 8082 --content-base src/platforms/win-uni-light/",
+    "start-win-uni-dark": "webpack-dev-server --inline --hot --port 8082 --content-base node_modules/lessapp/platforms/win-uni-dark",
+    "start-win-uni-light": "webpack-dev-server --inline --hot --port 8082 --content-base node_modules/lessapp/platforms/win-uni-dark",
     "start": "webpack-dev-server --inline --hot --port 8082 --content-base src",
     "build": "webpack",
     "buildapp": "node ./node_modules/lessapp --win --output-dir build/ --bundle build/bundle.js"
@@ -31,7 +31,7 @@
     "json-loader": "^0.5.4",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
-    "lessapp": "^1.0.1",
+    "lessapp": "^1.0.3",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-redux": "^4.4.1",
